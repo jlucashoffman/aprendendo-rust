@@ -1,0 +1,16 @@
+# o package é um cabeçalho de seção que indica as declarações seguintes que configuram o pacote, outras seções podem ser inseridas ao longo do tempo conforme mais informações são adicionadas ao código.
+
+[package]
+# para o Cargo compilar o programa ele precisa de três informações:
+name = "hello_cargo" # o nome do programa
+version = "0.1.0" # a versão do programa
+edition = "2024" # a edição do Rust que ele utiliza
+
+[dependencies]
+
+#------------------------------
+#- BUILDANDO COM CARGO
+#------------------------------
+
+# cd hello_cargo
+# cargo build
