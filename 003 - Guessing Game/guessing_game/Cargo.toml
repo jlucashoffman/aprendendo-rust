@@ -1,0 +1,11 @@
+[package]
+name = "guessing_game"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rand = "0.8.5" # dependencia = versão, 0.8.5 é um atalho para "^0.8.5" que significa de "0.8.5" até antes de "0.9.0"
+
+# o projeto que desenvolvemos é um binary crate, enquanto as bibliotecas importadas são library crate
+
+# crates.io é onde as pessoas publicam os projetos open source em rust
